@@ -1,0 +1,238 @@
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-Regular.ttf) format("truetype");
+
+    font-family: "roboto-light";
+    src: url(fonts/Roboto-Light.ttf) format("truetype");
+
+    font-family: "roboto";
+    src: url(fonts/Roboto-Regular.ttf) format("truetype");
+
+    font-family: "roboto-lightitalic";
+    src: url(fonts/Roboto-LightItalic.ttf) format("truetype");
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#hero{
+    background-color: #1F2937;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    position: absolute;
+    margin: 15px
+}
+
+nav a{
+    width: 50%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li{
+    margin: 25px;
+}
+
+#logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.navigation{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+ol{
+    padding: 0;
+    margin: 0, 0, 0, 150px;
+    list-style: none;
+}
+
+li{
+    float: right;
+
+}
+
+#header_main{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+#par1{
+    width: 50%;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    margin-left: 3em;
+    margin-top: -3em;
+}
+
+#button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration:none;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    margin-left: 3em;
+    border-radius: 5% / 15%;
+}
+
+#header_main{
+    padding-top: 3em;
+    margin-left: 1em;
+}
+
+img{
+    float: right;
+    margin-top: -19rem;
+    margin-right: 3em;
+    height: 320px;
+    width: 600px;
+}
+
+.first_section {
+    padding-bottom: 10em;
+}
+
+#box{
+    height: 170px;
+    width: 170px;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882F6;
+    border-radius: 10%;
+}
+
+#heading2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#box-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+#subtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: -10px;
+    margin-bottom: 5em;
+    text-align: center;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: grey;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    padding: 3em;
+}
+
+#testimonial{
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'roboto-lightitalic', Arial, Helvetica, sans-serif;
+}
+
+#client{
+    color: #1F2937;
+    font-size: 18px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 12em;
+    margin-top: -3em;
+    font-weight: bold;
+}
+
+.CTA{
+    background-color: #3882F6;
+    border-radius: 1.5% / 10%;
+    width: 1000px;
+    height: 150px;
+    border: solid;
+    border-color: #3882F6;
+    border-width: 1px;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    margin-left: 7em;
+}
+
+.CTAtext{
+    color: #F9FAF8;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-left: 4em;
+    margin-top: 2.5em;
+    font-size: 22px;
+}
+
+.ctasubtext{
+    color: #E5E7EB;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 88px;
+    margin-top: -1.5em;
+    font-size: 16px;
+
+}
+
+.ctabutton{
+    border: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    padding: 8px 30px;
+    text-align: center;
+    border-radius: 4% / 15%;
+    display: flex;
+    float: right;
+    margin-top: -3.75em;
+    margin-right: 7em;
+}
+
+.ctabutton a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+footer{
+    height: 50px;
+    background-color: #1F2937;
+}
+
+footer h6{
+    color: #E5E7EB;
+    font-size: 16px;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 15px;
+}
