@@ -1,0 +1,33 @@
+h2{
+    font-weight: bold;
+}
+
+body{
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#choice{
+    
+    display: inline-block;
+    background-color: #A26769;
+    border-radius: 10px;
+    border: 4px double #D5B9B2;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.picked{
+    margin-top: 50px;
+}
