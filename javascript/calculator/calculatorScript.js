@@ -83,8 +83,8 @@ function inputEquals() {
         secondNumber = screenValue;
         result = operate(Number(firstNumber), Number(secondNumber), secondOperator);
         
-        if (result == 'oof') {
-            screenValue = 'oof';
+        if (result == 'error') {
+            screenValue = 'error';
         } else {
             screenValue = result;
             firstNumber = screenValue;
@@ -96,8 +96,8 @@ function inputEquals() {
     } else {
         secondNumber = screenValue;
         result = operate(Number(firstNumber), Number(secondNumber), firstOperator);
-        if (result == 'oof') {
-            screenValue = 'oof';
+        if (result == 'error') {
+            screenValue = 'error';
         } else {
             screenValue = result;
             firstNumber = screenValue;
@@ -135,7 +135,7 @@ function operate(num1, num2, op) {
         return num1 * num2;
     } else if (op == '/') {
         if (num2 == 0) {
-            return 'oof';
+            return 'error';
         } else {
             return num1 / num2;
         }
